@@ -1,4 +1,4 @@
-<p align="center">
+<p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RafiNovandi/RafiNovandi/output/puzzle-bobble-contribution-graph-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RafiNovandi/RafiNovandi/output/puzzle-bobble-contribution-graph.svg" />
@@ -19,7 +19,6 @@
 <!-- # 💻 Tech Stack:
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) -->
-
 
 <!-- ![](https://github-readme-stats.shion.dev/api?username=RafiNovandi&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/> -->
 
