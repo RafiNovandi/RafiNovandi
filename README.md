@@ -1,8 +1,16 @@
-<picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RafiNovandi/RafiNovandi/output/puzzle-bobble-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RafiNovandi/RafiNovandi/output/puzzle-bobble-contribution-graph.svg" />
+    <img src="https://raw.githubusercontent.com/RafiNovandi/RafiNovandi/output/puzzle-bobble-contribution-graph-dark.svg" alt="Puzzle Bobble contribution graph" width="100%" />
+  </picture>
+</p>
+
+<!-- <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RafiNovandi/RafiNovandi/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RafiNovandi/RafiNovandi/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/RafiNovandi/RafiNovandi/output/pacman-contribution-graph.svg">
-</picture>
+</picture> -->
 
 <!-- ## 🌐 Socials:
 
