@@ -8,41 +8,6 @@ async function updateStats() {
     let template = await fs.readFile(templatePath, "utf-8");
 
     // ==========================================
-    // 1. FETCH & INJECT STREAK STATS (Angka & Tanggal)
-    // ==========================================
-    const streakRes = await fetch(
-      "https://streak-stats.demolab.com/?user=RafiNovandi",
-    );
-    const streakSvg = await streakRes.text();
-
-    // A. Ekstrak Angka (Total, Current, Longest)
-    const streakMatches = [
-      ...streakSvg.matchAll(/<text[^>]*>\s*([\d,]+)\s*<\/text>/g),
-    ];
-    const total = streakMatches[0] ? streakMatches[0][1] : "0";
-    const current = streakMatches[1] ? streakMatches[1][1] : "0";
-    const longest = streakMatches[2] ? streakMatches[2][1] : "0";
-
-    // B. Ekstrak Tanggal (Misal: Sep 23, 2021 - Present)
-    // Mencari pola teks yang mengandung nama bulan dan tanda strip "-"
-    const dateMatches = [
-      ...streakSvg.matchAll(
-        />\s*([A-Z][a-z]{2} \d{1,2}[^<]* - [^<]+?)\s*<\/text>/g,
-      ),
-    ];
-    const totalDate = dateMatches[0] ? dateMatches[0][1].trim() : "";
-    const currentDate = dateMatches[1] ? dateMatches[1][1].trim() : "";
-    const longestDate = dateMatches[2] ? dateMatches[2][1].trim() : "";
-
-    // Replace placeholder angka & tanggal
-    template = template.replace("{{TOTAL}}", total);
-    template = template.replace("{{CURRENT}}", current);
-    template = template.replace("{{LONGEST}}", longest);
-    template = template.replace("{{TOTAL_DATE}}", totalDate);
-    template = template.replace("{{CURRENT_DATE}}", currentDate);
-    template = template.replace("{{LONGEST_DATE}}", longestDate);
-
-    // ==========================================
     // 2. FETCH & INJECT TOP LANGUAGES
     // ==========================================
     const langsRes = await fetch(
@@ -54,13 +19,25 @@ async function updateStats() {
       /<g transform="translate[^>]*>.*?fill="([^"]+)".*?<text[^>]*>\s*([^<]+?)\s+([\d.]+)%\s*<\/text>.*?<\/g>/gs;
     const langMatches = [...langsSvg.matchAll(regex)];
 
+    const customColors = {
+      TypeScript: "#3498DB",
+      Kotlin: "#A97BFF",
+      CSS: "#2ECC71",
+      PLpgSQL: "#336790",
+      HTML: "#E74C3C",
+      JavaScript: "#F1C40F",
+    };
+
     let langBars = "";
     let langLegends = "";
     let currentX = 25;
 
     langMatches.forEach((match, index) => {
-      const color = match[1];
       const name = match[2].trim();
+
+      // LOGIKA WARNA: Pakai custom color jika ada di kamus, jika tidak ada pakai warna asli bawaan API
+      const color = customColors[name] || match[1];
+
       const percent = parseFloat(match[3]);
 
       // Bikin garis Progress Bar
