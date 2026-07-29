@@ -23,7 +23,6 @@
         <!-- Border Kotak Kiri -->
         <rect stroke="#30363D" fill="transparent" rx="4.5" x="0.5" y="0.5" width="480" height="194"/>
         
-        
         <!-- Garis Pemisah Vertikal -->
         <line x1="160" y1="28" x2="160" y2="170" stroke="#30363D" stroke-width="1"/>
         <line x1="320" y1="28" x2="320" y2="170" stroke="#30363D" stroke-width="1"/>
@@ -36,7 +35,7 @@
             <text x="0" y="32" text-anchor="middle" fill="#FFFFFF" class="label">Total Contributions</text>
         </g>
         <g transform="translate(80, 114)">
-            <text x="0" y="32" text-anchor="middle" class="date">Sep 23, 2021 - Present</text>
+            <text x="0" y="32" text-anchor="middle" class="date">{{TOTAL_DATE}}</text>
         </g>
 
         <!-- Current Streak -->
@@ -52,7 +51,7 @@
             <text x="0" y="32" text-anchor="middle" class="label-streak">Current Streak</text>
         </g>
         <g transform="translate(240, 145)">
-            <text x="0" y="21" text-anchor="middle" class="date">Jul 28 - Jul 29</text>
+            <text x="0" y="21" text-anchor="middle" class="date">{{CURRENT_DATE}}</text>
         </g>
 
         <!-- Longest Streak -->
@@ -63,7 +62,7 @@
             <text x="0" y="32" text-anchor="middle" fill="#FFFFFF" class="label">Longest Streak</text>
         </g>
         <g transform="translate(400, 114)">
-            <text x="0" y="32" text-anchor="middle" class="date">Jul 18 - Jul 23</text>
+            <text x="0" y="32" text-anchor="middle" class="date">{{LONGEST_DATE}}</text>
         </g>
     </g>
 
@@ -77,41 +76,15 @@
         <!-- Judul -->
         <text x="25" y="40" class="title">Most Used Languages</text>
 
-        <!-- Progress Bar (Total width: 290px) -->
-        <!-- Perhitungan kasar lebar (width) dari persentase -->
+        <!-- Progress Bar Dinamis -->
         <clipPath id="bar-clip">
             <rect x="25" y="60" width="290" height="8" rx="4"/>
         </clipPath>
         <g clip-path="url(#bar-clip)">
-            <!-- TypeScript 66.84% (~193px) -->
-            <rect x="25" y="60" width="193" height="8" fill="#3178c6"/>
-            <!-- Kotlin 27.64% (~80px) -->
-            <rect x="218" y="60" width="80" height="8" fill="#A97BFF"/>
-            <!-- CSS 2.47% (~7px) -->
-            <rect x="298" y="60" width="7" height="8" fill="#563d7c"/>
-            <!-- Sisa bahasa (HTML, JS, dll) -->
-            <rect x="305" y="60" width="10" height="8" fill="#e34c26"/>
+{{LANG_BARS}}
         </g>
 
-        <!-- Legend Baris 1 -->
-        <circle cx="28" cy="95" r="4" fill="#3178c6"/>
-        <text x="40" y="99" class="lang-text">TypeScript 66.84%</text>
-
-        <circle cx="178" cy="95" r="4" fill="#563d7c"/>
-        <text x="190" y="99" class="lang-text">CSS 2.47%</text>
-
-        <!-- Legend Baris 2 -->
-        <circle cx="28" cy="125" r="4" fill="#A97BFF"/>
-        <text x="40" y="129" class="lang-text">Kotlin 27.64%</text>
-
-        <circle cx="178" cy="125" r="4" fill="#336790"/>
-        <text x="190" y="129" class="lang-text">PLpgSQL 0.31%</text>
-
-        <!-- Legend Baris 3 -->
-        <circle cx="28" cy="155" r="4" fill="#e34c26"/>
-        <text x="40" y="159" class="lang-text">HTML 2.48%</text>
-
-        <circle cx="178" cy="155" r="4" fill="#f1e05a"/>
-        <text x="190" y="159" class="lang-text">JavaScript 0.27%</text>
+        <!-- Legends Dinamis -->
+{{LANG_LEGENDS}}
     </g>
 </svg>
