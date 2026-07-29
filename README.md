@@ -25,8 +25,9 @@
 ![](https://streak-stats.demolab.com/?user=RafiNovandi&theme=dark&hide_border=false)
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=RafiNovandi&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-![Streak](https://streak-stats.demolab.com/?user=RafiNovandi&hide_border=false&background=0D1117&border=30363D&title_color=FFFFFF&text_color=C9D1D9&ring=FF9900&fire=FF9900&currStreakNum=FFFFFF) ![Top Langs](https://github-readme-stats.shion.dev/api/top-langs/?username=RafiNovandi&hide_border=false&include_all_commits=true&count_private=true&layout=compact&bg_color=0D1117&border_color=30363D&title_color=FFFFFF&text_color=C9D1D9)
 
-[![](https://komarev.com/ghpvc/?username=RafiNovandi&icon=0&color=10)](https://visitcount.itsvg.in)
+<p>
+  <img src="./assets/github-streak.svg" alt="GitHub Streak" width="100%" />
+</p>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
