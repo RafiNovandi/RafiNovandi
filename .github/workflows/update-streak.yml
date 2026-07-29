@@ -1,0 +1,27 @@
+name: Update GitHub Stats SVG
+
+on:
+  schedule:
+    - cron: "0 0 * * *" 
+  workflow_dispatch:
+
+jobs:
+  update-svg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Updater Script
+        run: node update-stats.js
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update GitHub Streak SVG"
+          file_pattern: assets/github-streak.svg
