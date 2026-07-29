@@ -14,11 +14,9 @@
         .animated { opacity: 0; animation: fadein 0.8s linear forwards; }
     </style>
 
-    <!-- TAMBAHAN MASKING UNTUK MEMOTONG GARIS BULAT -->
     <defs>
         <mask id="mask_out_ring_behind_fire">
             <rect width="850" height="215" fill="white"/>
-            <!-- Elips hitam ini ukurannya pas sebesar icon api untuk menutupi garis -->
             <ellipse cx="240" cy="32" rx="14" ry="18" fill="black"/>
         </mask>
     </defs>
@@ -48,7 +46,6 @@
         </g>
 
         <!-- Current Streak -->
-        <!-- Ring dengan efek MASK -->
         <g mask="url(#mask_out_ring_behind_fire)">
             <circle cx="240" cy="71" r="40" fill="none" stroke="#FF9900" stroke-width="5"></circle>
         </g>
