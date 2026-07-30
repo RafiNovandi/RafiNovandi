@@ -36,7 +36,7 @@
 
         <!-- Total Contributions -->
         <g transform="translate(80, 48)">
-            <text x="0" y="32" text-anchor="middle" class="big-num">204</text>
+            <text x="0" y="32" text-anchor="middle" class="big-num">217</text>
         </g>
         <g transform="translate(80, 84)">
             <text x="0" y="32" text-anchor="middle" fill="#FFFFFF" class="label">Total Contributions</text>
@@ -56,13 +56,13 @@
         </g>
         
         <g transform="translate(240, 48)">
-            <text x="0" y="32" text-anchor="middle" class="big-num">2</text>
+            <text x="0" y="32" text-anchor="middle" class="big-num">3</text>
         </g>
         <g transform="translate(240, 108)">
             <text x="0" y="32" text-anchor="middle" class="label-streak">Current Streak</text>
         </g>
         <g transform="translate(240, 145)">
-            <text x="0" y="21" text-anchor="middle" class="date">Jul 28 - Jul 29</text>
+            <text x="0" y="21" text-anchor="middle" class="date">Jul 28 - Jul 30</text>
         </g>
 
         <!-- Longest Streak -->
@@ -93,10 +93,10 @@
         </clipPath>
         <g clip-path="url(#bar-clip)">
             <rect x="25" y="60" width="192.21200000000002" height="8" fill="#3498DB"/>
-            <rect x="217.21200000000002" y="60" width="79.489" height="8" fill="#A97BFF"/>
-            <rect x="296.701" y="60" width="7.134" height="8" fill="#E74C3C"/>
-            <rect x="303.83500000000004" y="60" width="7.105" height="8" fill="#2ECC71"/>
-            <rect x="310.94000000000005" y="60" width="3.1900000000000004" height="8" fill="#F1C40F"/>
+            <rect x="217.21200000000002" y="60" width="79.46" height="8" fill="#A97BFF"/>
+            <rect x="296.672" y="60" width="7.134" height="8" fill="#E74C3C"/>
+            <rect x="303.80600000000004" y="60" width="7.105" height="8" fill="#2ECC71"/>
+            <rect x="310.91100000000006" y="60" width="3.2190000000000003" height="8" fill="#F1C40F"/>
             <rect x="314.13000000000005" y="60" width="0.899" height="8" fill="#336790"/>
 
         </g>
@@ -105,13 +105,13 @@
         <circle cx="28" cy="95" r="4" fill="#3498DB"/>
         <text x="40" y="99" class="lang-text">TypeScript 66.28%</text>
         <circle cx="178" cy="95" r="4" fill="#A97BFF"/>
-        <text x="190" y="99" class="lang-text">Kotlin 27.41%</text>
+        <text x="190" y="99" class="lang-text">Kotlin 27.4%</text>
         <circle cx="28" cy="125" r="4" fill="#E74C3C"/>
         <text x="40" y="129" class="lang-text">HTML 2.46%</text>
         <circle cx="178" cy="125" r="4" fill="#2ECC71"/>
         <text x="190" y="129" class="lang-text">CSS 2.45%</text>
         <circle cx="28" cy="155" r="4" fill="#F1C40F"/>
-        <text x="40" y="159" class="lang-text">JavaScript 1.1%</text>
+        <text x="40" y="159" class="lang-text">JavaScript 1.11%</text>
         <circle cx="178" cy="155" r="4" fill="#336790"/>
         <text x="190" y="159" class="lang-text">PLpgSQL 0.31%</text>
 
