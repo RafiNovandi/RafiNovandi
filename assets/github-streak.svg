@@ -36,7 +36,7 @@
 
         <!-- Total Contributions -->
         <g transform="translate(80, 48)">
-            <text x="0" y="32" text-anchor="middle" class="big-num">217</text>
+            <text x="0" y="32" text-anchor="middle" class="big-num">236</text>
         </g>
         <g transform="translate(80, 84)">
             <text x="0" y="32" text-anchor="middle" fill="#FFFFFF" class="label">Total Contributions</text>
@@ -56,13 +56,13 @@
         </g>
         
         <g transform="translate(240, 48)">
-            <text x="0" y="32" text-anchor="middle" class="big-num">3</text>
+            <text x="0" y="32" text-anchor="middle" class="big-num">4</text>
         </g>
         <g transform="translate(240, 108)">
             <text x="0" y="32" text-anchor="middle" class="label-streak">Current Streak</text>
         </g>
         <g transform="translate(240, 145)">
-            <text x="0" y="21" text-anchor="middle" class="date">Jul 28 - Jul 30</text>
+            <text x="0" y="21" text-anchor="middle" class="date">Jul 28 - Jul 31</text>
         </g>
 
         <!-- Longest Streak -->
