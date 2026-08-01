@@ -25,9 +25,7 @@
 <!-- ![](https://streak-stats.demolab.com/?user=RafiNovandi&theme=dark&hide_border=false)
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=RafiNovandi&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact) -->
 
-<p>
-  <img src="./assets/github-streak.svg" alt="My Stats" width="100%"/>
-</p>
+<img src="./assets/github-streak.svg" alt="My Stats" width="100%"/>
 
 [![](https://komarev.com/ghpvc/?username=RafiNovandi&icon=0&color=10)](https://visitcount.itsvg.in)
 
