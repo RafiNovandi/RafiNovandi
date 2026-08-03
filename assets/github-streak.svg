@@ -36,7 +36,7 @@
 
         <!-- Total Contributions -->
         <g transform="translate(80, 48)">
-            <text x="0" y="32" text-anchor="middle" class="big-num">250</text>
+            <text x="0" y="32" text-anchor="middle" class="big-num">254</text>
         </g>
         <g transform="translate(80, 84)">
             <text x="0" y="32" text-anchor="middle" fill="#FFFFFF" class="label">Total Contributions</text>
@@ -56,24 +56,24 @@
         </g>
         
         <g transform="translate(240, 48)">
-            <text x="0" y="32" text-anchor="middle" class="big-num">6</text>
+            <text x="0" y="32" text-anchor="middle" class="big-num">7</text>
         </g>
         <g transform="translate(240, 108)">
             <text x="0" y="32" text-anchor="middle" class="label-streak">Current Streak</text>
         </g>
         <g transform="translate(240, 145)">
-            <text x="0" y="21" text-anchor="middle" class="date">Jul 28 - Aug 2</text>
+            <text x="0" y="21" text-anchor="middle" class="date">Jul 28 - Aug 3</text>
         </g>
 
         <!-- Longest Streak -->
         <g transform="translate(400, 48)">
-            <text x="0" y="32" text-anchor="middle" class="big-num">6</text>
+            <text x="0" y="32" text-anchor="middle" class="big-num">7</text>
         </g>
         <g transform="translate(400, 84)">
             <text x="0" y="32" text-anchor="middle" fill="#FFFFFF" class="label">Longest Streak</text>
         </g>
         <g transform="translate(400, 114)">
-            <text x="0" y="32" text-anchor="middle" class="date">Jul 18 - Jul 23</text>
+            <text x="0" y="32" text-anchor="middle" class="date">Jul 28 - Aug 3</text>
         </g>
     </g>
 
@@ -92,26 +92,26 @@
             <rect x="25" y="60" width="290" height="8" rx="4"/>
         </clipPath>
         <g clip-path="url(#bar-clip)">
-            <rect x="25" y="60" width="192.50199999999998" height="8" fill="#3498DB"/>
-            <rect x="217.50199999999998" y="60" width="79.228" height="8" fill="#A97BFF"/>
-            <rect x="296.72999999999996" y="60" width="7.105" height="8" fill="#E74C3C"/>
-            <rect x="303.835" y="60" width="7.076" height="8" fill="#2ECC71"/>
-            <rect x="310.911" y="60" width="3.2190000000000003" height="8" fill="#F1C40F"/>
-            <rect x="314.13" y="60" width="0.87" height="8" fill="#336790"/>
+            <rect x="25" y="60" width="193.11100000000002" height="8" fill="#3498DB"/>
+            <rect x="218.11100000000002" y="60" width="78.73499999999999" height="8" fill="#A97BFF"/>
+            <rect x="296.846" y="60" width="7.047000000000001" height="8" fill="#E74C3C"/>
+            <rect x="303.89300000000003" y="60" width="7.018" height="8" fill="#2ECC71"/>
+            <rect x="310.911" y="60" width="3.1900000000000004" height="8" fill="#F1C40F"/>
+            <rect x="314.101" y="60" width="0.87" height="8" fill="#336790"/>
 
         </g>
 
         <!-- Legends Dinamis -->
         <circle cx="28" cy="95" r="4" fill="#3498DB"/>
-        <text x="40" y="99" class="lang-text">TypeScript 66.38%</text>
+        <text x="40" y="99" class="lang-text">TypeScript 66.59%</text>
         <circle cx="178" cy="95" r="4" fill="#A97BFF"/>
-        <text x="190" y="99" class="lang-text">Kotlin 27.32%</text>
+        <text x="190" y="99" class="lang-text">Kotlin 27.15%</text>
         <circle cx="28" cy="125" r="4" fill="#E74C3C"/>
-        <text x="40" y="129" class="lang-text">HTML 2.45%</text>
+        <text x="40" y="129" class="lang-text">HTML 2.43%</text>
         <circle cx="178" cy="125" r="4" fill="#2ECC71"/>
-        <text x="190" y="129" class="lang-text">CSS 2.44%</text>
+        <text x="190" y="129" class="lang-text">CSS 2.42%</text>
         <circle cx="28" cy="155" r="4" fill="#F1C40F"/>
-        <text x="40" y="159" class="lang-text">JavaScript 1.11%</text>
+        <text x="40" y="159" class="lang-text">JavaScript 1.1%</text>
         <circle cx="178" cy="155" r="4" fill="#336790"/>
         <text x="190" y="159" class="lang-text">PLpgSQL 0.3%</text>
 
