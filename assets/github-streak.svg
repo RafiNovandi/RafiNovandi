@@ -36,7 +36,7 @@
 
         <!-- Total Contributions -->
         <g transform="translate(80, 48)">
-            <text x="0" y="32" text-anchor="middle" class="big-num">272</text>
+            <text x="0" y="32" text-anchor="middle" class="big-num">273</text>
         </g>
         <g transform="translate(80, 84)">
             <text x="0" y="32" text-anchor="middle" fill="#FFFFFF" class="label">Total Contributions</text>
