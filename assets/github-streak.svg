@@ -36,13 +36,13 @@
 
         <!-- Total Contributions -->
         <g transform="translate(80, 48)">
-            <text x="0" y="32" text-anchor="middle" class="big-num">319</text>
+            <text x="0" y="32" text-anchor="middle" class="big-num">0</text>
         </g>
         <g transform="translate(80, 84)">
             <text x="0" y="32" text-anchor="middle" fill="#FFFFFF" class="label">Total Contributions</text>
         </g>
         <g transform="translate(80, 114)">
-            <text x="0" y="32" text-anchor="middle" class="date">Sep 23, 2021 - Present</text>
+            <text x="0" y="32" text-anchor="middle" class="date"></text>
         </g>
 
         <!-- Current Streak -->
@@ -56,24 +56,24 @@
         </g>
         
         <g transform="translate(240, 48)">
-            <text x="0" y="32" text-anchor="middle" class="big-num">31</text>
+            <text x="0" y="32" text-anchor="middle" class="big-num">0</text>
         </g>
         <g transform="translate(240, 108)">
             <text x="0" y="32" text-anchor="middle" class="label-streak">Current Streak</text>
         </g>
         <g transform="translate(240, 145)">
-            <text x="0" y="21" text-anchor="middle" class="date">Jul 28 - Aug 27</text>
+            <text x="0" y="21" text-anchor="middle" class="date"></text>
         </g>
 
         <!-- Longest Streak -->
         <g transform="translate(400, 48)">
-            <text x="0" y="32" text-anchor="middle" class="big-num">31</text>
+            <text x="0" y="32" text-anchor="middle" class="big-num">0</text>
         </g>
         <g transform="translate(400, 84)">
             <text x="0" y="32" text-anchor="middle" fill="#FFFFFF" class="label">Longest Streak</text>
         </g>
         <g transform="translate(400, 114)">
-            <text x="0" y="32" text-anchor="middle" class="date">Jul 28 - Aug 27</text>
+            <text x="0" y="32" text-anchor="middle" class="date"></text>
         </g>
     </g>
 
