@@ -7,6 +7,10 @@ on:
 
   workflow_dispatch:
 
+concurrency:
+  group: push-output-branch
+  cancel-in-progress: false
+
 jobs:
   generate:
     permissions:
@@ -22,7 +26,7 @@ jobs:
 
 
       - name: push pacman-contribution-graph.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
