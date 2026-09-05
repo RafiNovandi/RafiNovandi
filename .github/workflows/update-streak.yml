@@ -1,13 +1,18 @@
 name: Update GitHub Stats SVG
 
 on:
-  schedule:
-    - cron: "* */12 * * *" 
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
   update-svg:
     runs-on: ubuntu-latest
+    # Skip runs triggered by the bot's own auto-commit to prevent infinite loops
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      !contains(github.event.head_commit.message, 'Auto-update GitHub Streak SVG')
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
