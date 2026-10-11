@@ -27,11 +27,11 @@
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-stats-eight.vercel.app/api/stats">
-    <img src="https://github-profile-stats-eight.vercel.app/api/stats?theme=light" alt="My Stats" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-stats-eight.vercel.app/api/stats?theme=dark&v=3">
+    <img src="https://github-profile-stats-eight.vercel.app/api/stats?theme=light&v=3" alt="My Stats" width="100%">
   </picture>
 </p>
 
-[![](https://komarev.com/ghpvc/?username=RafiNovandi&icon=0&color=10)](https://visitcount.itsvg.in)
+[![](https://komarev.com/ghpvc/?username=RafiNovandi&color=F1C40F&style=flat)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
