@@ -1,9 +1,9 @@
-   <p>
-     <picture>
-       <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-stats-eight.vercel.app/api/bobble">
-       <img src="https://github-profile-stats-eight.vercel.app/api/bobble?theme=light" alt="Puzzle Bobble graph" width="100%">
-     </picture>
-   </p>
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-stats-eight.vercel.app/api/bobble?theme=dark">
+    <img src="https://github-profile-stats-eight.vercel.app/api/bobble?theme=light" alt="Puzzle Bobble graph" width="100%">
+  </picture>
+</p>
 
 <!-- ## 🌐 Socials:
 
@@ -20,8 +20,8 @@
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-stats-eight.vercel.app/api/stats?theme=dark&v=4">
-    <img src="https://github-profile-stats-eight.vercel.app/api/stats?theme=light&v=4" alt="My Stats" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-stats-eight.vercel.app/api/stats?theme=dark">
+    <img src="https://github-profile-stats-eight.vercel.app/api/stats?theme=light" alt="My Stats" width="100%">
   </picture>
 </p>
 
